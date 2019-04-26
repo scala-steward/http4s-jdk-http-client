@@ -1,0 +1,11 @@
+name: http4s-jdk-http-client
+baseurl: /http4s-jdk-http-client
+description: JDK 11+ http client implementation for http4s clients
+highlighter: rouge
+docs: true
+collections:
+  tut:
+    output: true
+version: 0.0.1-SNAPSHOT
+org: org.http4s
+markdown: kramdown
