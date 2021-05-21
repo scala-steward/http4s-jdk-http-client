@@ -9,7 +9,7 @@ jobs:
       with:
         java-version: '11'
     - uses: olafurpg/setup-gpg@v3
-    - uses: coursier/cache-action@v5
+    - uses: coursier/cache-action@v6.1
     - env:
         PGP_PASSPHRASE: ${{ secrets.PGP_PASSPHRASE }}
         PGP_SECRET: ${{ secrets.PGP_SECRET }}
